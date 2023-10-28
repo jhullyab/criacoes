@@ -1,0 +1,36 @@
+Crie um algoritmo que se o usúario informar um valor par ele multiplicava esse valor por 2, se informa um valor impar ele repete esse valor na tela 10 vezes; EM  
+C
+
+#include <stdio.h>
+
+int main() {
+    int numero, n;
+    n=1;
+    printf ("informe um número");
+    scanf ("%i", &numero);
+    
+    if (numero % 2 == 0){
+        printf ("O resultado da multiplicação x2 é: %i", numero*2);
+    }
+    else{
+        while (n <= 10){
+            printf ("\nO número impar é:%i", numero);
+            n=n+1;
+        }
+    }
+    
+
+    return 0;
+}
+
+
+INT: variável.
+n=1 : para número impar.
+printf: escrever.
+scanf: receber o printf.
+if (numero %2 ==0) : váriavel %2 == 0 identificar o número par
+else: se não.
+while (n <=10){ quantas vezes o número irá repetir e o { para iniciar o “conteúdo” na linha de baixo.
+n=n+1  contar o número de linhas do while.
+\n quebra de linha
+%i para puxar o número inteiro.
