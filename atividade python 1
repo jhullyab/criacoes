@@ -1,0 +1,23 @@
+#Ler o valor informado pelo usuário e calcular o fatorial do número;
+#Utilizar uma função para efetuar o cálculo;
+#ENTRADA: 3;
+#SAIDA: 6;
+
+def fatorial_simples(x):  
+    aux = 1
+    while x > 0:
+        aux = aux*x
+        x=x-1
+    return aux
+   
+def fatorial_recursivo(x):
+    if x == 1:
+        return 1
+    else:
+        return x * fatorial_recursivo(x-1)
+#X == 3
+#X == 2
+#X == 1
+
+variavel = int (input("Informe um valor para ser calculado o fatorial!"))
+print(fatorial_simples(variavel))
