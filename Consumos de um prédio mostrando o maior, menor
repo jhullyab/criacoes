@@ -1,0 +1,35 @@
+continuar = 1
+edificio = 0
+consumoMedio = 0
+totalApartamentos = 0
+maiorConsumo = 0
+menorConsumo = 0
+maiorConsumoApt = **
+menorConsumoApt = **
+consumoAUX = 0
+apartamentoAUX = **
+primeiraExecucao = True
+
+edificio = input ("Informe o nome do Edifício: ")
+
+while (continuar == 1):
+    apartamentoAUX = input("Informe o apartamento")
+    consumoAUX = int(input ("Informe o consumo de água em litro: "))
+    
+    if (consumoAUX>= maiorConsumo or primeiraExecucao):
+        maiorConsumo = consumoAUX
+        maiorConsumoApt = apartamentoAUX
+        
+    if (consumoAUX>= menorConsumo or primeiraExecucao):
+        menorConsumo = consumoAUX
+        menorConsumoApt = apartamentoAUX
+    
+    primeiraExecucao = False
+        consumoMedio = consumoMedio + consumoAUX
+        numeroApts = numeroApts + 1
+        continuar = int(input("Para continuar digite 1, caso deseje finalizar, digite 0: "))
+    
+print ("Edifício:", edificio)
+print ("O consumo médio do edifício foi: ", consumoMedio/numeroApts)
+print ("O maior consumo foi no apartamento", maiorConsumoApt, "que consumiu", maiorconsumo)
+print ("O menor consumo foi no apartamento", menorConsumo)
