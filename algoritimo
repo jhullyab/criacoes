@@ -1,0 +1,35 @@
+CRIE UM ALGORITMO QUE LEIA UM VALOR INFORMADO PELO USUÁRIO. SE O VALOR FOR POSITIVO, DEVE MULTIPLICAR ESSE VALOR POR 5, SE FOR NEGATIVO, ACRESCENTE A ESSE VALOR 19, SE FOR IGUAL A 0, MOSTRE OS NÚMEROS DE 1 A 15 NA TELA
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    int numero, n;
+    n=1;
+    printf ("informe um número");
+    scanf ("%i", &numero);
+    
+    if (numero > 0){
+        printf ("O resultado da multiplicação x5 é: %i", numero*5);
+    }
+    else{
+        if (numero < 0){
+            printf (" O número menor que zero é:%i", numero+19);
+        }
+        else{
+        while (n <= 15){
+            printf ("\nO número impar é:%i", n);
+            n=n + 1;
+        }
+        }
+    }
+    
+
+    return 0;
+}
+
+printf ("\nO número impar é:%i", n);
+Variável será n pois irá contar de 1 a 15
+Se colocar a variável numero irá colocar apenas 0 por 15 vezes ( while (n <= 15){ )
