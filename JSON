@@ -1,0 +1,109 @@
+ dadosJson = ("{ \"titulo\": \"JSON x XML\", \n"
+"\"resumo\": \"o duelo de dois modelos de representação de informações\", \n"
+\"ano\": 2012, \n\"genero\": [\"aventura\", \"ação\", \"ficção\"] }")
+
+f = open("teste.json", "w")
+f.write (dadosJson)
+f.close()
+
+
+#file = open("teste.txt", "r")
+#print(file.read())
+
+--------------------------------------------------------
+
+
+{
+"titulo": "Json x XML",
+"resumo": "o duelo de dois modelos de representação de informações",
+"ano": 2012,
+"genero": ["aventura", "ação
+
+---------------------------------------------------------
+FAZER EXEMPLO DE JSON DE JOGADOR DE TIME-JOGOS
+
+dadosJson = ("{"
+\n  \"nome\": \"Furia\","
+\n  \"treinador\"> \"Guerri\","
+\n  \"regiao\": \"Brazil\","
+\n  \"titulos\": [\"nenhum\"],"
+\n  \"jogadores\": ["
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+
+
+----------------------------------------------
+TRANSFORMAR PARA O PYTHON LER
+nome = input("Digite o nome do time")
+treinador = input ("Digite o nome do treinador")
+regiao = input ("Digite a regiao do time")
+titulos = input ("Digite quantos titulos do time")
+
+while jogadres <6:
+    nome = input("Fale no nome do jogador:")
+
+
+    dadosJson = ("{"
+    \n  \"nome\":" nome,
+    \n  \"treinador\":" treinador,
+    \n  \"regiao\":" regiao,
+    \n  \"titulos\":" titulos,
+    \n  \"jogadores\": ["
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
+                    {\"nome_jogador\": \Gabriel Toledo\","
+                    \"titular\": true,"
+                    \"funcao\": \"igl, awp\","
+                    \"idade\": \"32\","
+                    \"nick\": \"fallen\""
+                      },"
