@@ -1,0 +1,16 @@
+apt install neofatch
+
+#!bin/bash
+#!mkdir -p {Math, English, Geography, Arts}_{notes,examresults,portfolio}
+echo "Enter directory name"
+read newdir
+mkdir $newdir -pv
+
+criar pasta1 pasta2 pasta3
+
+mkdir pasta1
+cd pasta1
+mkdir pasta2
+cd pasta2
+mkdir pasta3
+cd pasta3
